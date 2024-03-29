@@ -4,7 +4,9 @@ layout: default
 ---
 
 В API V7 добавлен новый метод, [`IOperationService.RegisterCustomRoundingHandler`](https://iiko.github.io/front.api.sdk/v7/html/M_Resto_Front_Api_IOperationService_RegisterCustomRoundingHandler.htm), позволяющий регистрировать обработчик применения округления к заказу во фронте. 
+
 Пример использования:
+
 ```
 var toDispose =  PluginContext.Operations.RegisterCustomRoundingHandler(order =>
 {
@@ -18,4 +20,5 @@ var toDispose =  PluginContext.Operations.RegisterCustomRoundingHandler(order =>
 });
 ```
 Если сумма возвращаемого округления равна 0, никакое округление не должно примениться.
+
 Если в обработчике выкинуть какое-либо исключение, то применится округление, настроенное в беке.
