@@ -5,7 +5,8 @@ tags: v9preview1 v9
 
 ---
 
-В Api V9 добавлена возможность добавлять кнопки на экран печати документов во фронте, чтобы плагины могли вызывать собственные окна. 
+В API V9Preview1 добавлена возможность добавлять кнопки на экран печати документов во фронте, чтобы плагины могли вызывать собственные окна. 
+
 
 Добавлен метод [`AddButtonToDocumentsScreen`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_IOperationService_AddButtonToDocumentsScreen.htm) со следующими параметрами:
 
