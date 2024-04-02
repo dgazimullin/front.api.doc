@@ -14,4 +14,5 @@ tags: v9preview1 v9
 * `iconGeometry` — иконка в формате [Path Markup](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/graphics-multimedia/path-markup-syntax?view=netframeworkdesktop-4.8) (можно без иконки),
 * `callback` — обработчик нажатия на кнопку, в котором можно показывать диалоговые окна и вносить изменения.
 
-В Api V9 был добавлен еще тип [`IDocument`](https://iiko.github.io/front.api.sdk/v9/html/Properties_T_Resto_Front_Api_Data_Documents_IDocument.htm) , который передает тип документа и номер, при нажатии на кнопку.
+В API V9Preview1 был добавлен еще тип [`IDocument`](https://iiko.github.io/front.api.sdk/v9/html/Properties_T_Resto_Front_Api_Data_Documents_IDocument.htm) , который передает тип документа и номер, при нажатии на кнопку.
+
