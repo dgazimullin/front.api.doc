@@ -16,6 +16,6 @@ tags: v8
 После этого плагинная оплата пометится статусом `FAILED` и удалится.
 
 В API V8 у указанных исключений появились перегрузки
-([#1](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_Exceptions_PaymentActionCancelledException__ctor_2.htm),
-[#2](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_Exceptions_PaymentActionFailedException__ctor_2.htm)),
+([#1](https://iiko.github.io/front.api.sdk/v8/html/M_Resto_Front_Api_Exceptions_PaymentActionCancelledException__ctor_2.htm),
+[#2](https://iiko.github.io/front.api.sdk/v8/html/M_Resto_Front_Api_Exceptions_PaymentActionFailedException__ctor_2.htm)),
 позволяющие создать исключение с выставленным в `true` флажком `bool keepInOrder`, которые в результате оставят оплату, при проведении которой было выброшено исключение, в заказе, если есть такая возможность (касается только оплат; предоплаты и чаевые будут вести себя по-старому).
