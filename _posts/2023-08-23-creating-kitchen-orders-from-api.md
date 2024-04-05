@@ -1,6 +1,7 @@
 ---
 title: Создание кухонных заказов из API
 layout: default
+tags: v8preview7 v8
 ---
 
 В API V8Preview7 был добавлен метод [`CreateKitchenOrder`](https://iiko.github.io/front.api.sdk/v8/html/M_Resto_Front_Api_IOperationService_CreateKitchenOrder.htm), который позволяет создать кухонный заказ через API.
