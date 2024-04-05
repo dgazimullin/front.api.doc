@@ -4,7 +4,7 @@ layout: default
 tags: v9preview1 v9
 ---
 
-В Api V9Preview1 был расширен класс [`KitchenOrderDto`](https://iiko.github.io/front.api.sdk/v9/html/T_Resto_Front_Api_Data_Kitchen_KitchenOrderDto.htm) с целью добиться наиболее точной настройки создаваемого кухонного заказа через Api.
+В API V9Preview1 был расширен класс [`KitchenOrderDto`](https://iiko.github.io/front.api.sdk/v9/html/T_Resto_Front_Api_Data_Kitchen_KitchenOrderDto.htm) с целью добиться наиболее точной настройки [создаваемого кухонного заказа через API](https://iiko.github.io/front.api.doc/2023/08/23/creating-kitchen-orders-from-api.html). 
 
 Были добавлены следующие поля:
 
