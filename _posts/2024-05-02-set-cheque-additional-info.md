@@ -20,5 +20,5 @@ Operations.AddButtonToPaymentScreen("Add Cheque", false, true, x =>
 
     x.os.SetChequeAdditionalInfo(chequeAdditionalInfo, x.order, x.os.GetDefaultCredentials());
     x.os.UpdatePaymentScreenButtonState(x.state.buttonId, caption, isChecked);
-}, IikoIcon).buttonRegistration
+}, IikoIcon);
 ```
