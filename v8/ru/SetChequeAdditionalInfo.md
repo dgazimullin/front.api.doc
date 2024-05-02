@@ -1,6 +1,7 @@
 ---
 title: Способ отправки чека
 layout: default
+tags: v8
 ---
 Начиная с версии V8, можно установить способ отправки чека заказа - [`ChequeAdditionalInfo`](https://iiko.github.io/front.api.sdk/v8/html/T_Resto_Front_Api_Data_Payments_ChequeAdditionalInfo.htm), который передается в качестве аргумента - [`SetChequeAdditionalInfo`](https://iiko.github.io/front.api.sdk/v8/html/M_Resto_Front_Api_IOperationService_SetChequeAdditionalInfo.htm).
 
