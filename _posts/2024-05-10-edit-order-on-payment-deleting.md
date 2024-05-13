@@ -7,4 +7,4 @@ tags: v8
 
 В API V8 добавлена возможность редактировать заказ при удалении оплаты через плагин через вызов метода [`OnPaymentDeleting`](https://iiko.github.io/front.api.sdk/v8/html/M_Resto_Front_Api_IPaymentProcessor_OnPaymentDeleting.htm).
 
-Заказ больше не блокируется при удалении оплаты.
+Редактирование текущего заказа теперь возможно через аргумент `IOperationService operationService` данного метода.
