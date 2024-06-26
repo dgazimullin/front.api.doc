@@ -60,7 +60,7 @@ tags: v8
 private void StornoPastOrder()
 {
     var pastOrder = PluginContext.Operations.GetPastOrders().First();
-    var paymentType = pastOrder.Payments.First();
+    var paymentType = pastOrder.Payments.First().PaymentType;
 
     // rt.WriteoffType.HasFlag(WriteoffType.Cafe) - сторнирование со списанием
     // rt.WriteoffType == WriteoffType.None - сторнирование без списания
