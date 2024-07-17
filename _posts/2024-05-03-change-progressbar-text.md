@@ -14,7 +14,7 @@ tags: v9 v9preview2
   - [`DoPayIn`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_Devices_ICashRegister_DoPayIn.htm) и [`DoPayOut`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_Devices_ICashRegister_DoPayOut.htm): изъятие и внесение денежных средств;
   - [`OpenDrawer`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_Devices_ICashRegister_OpenDrawer.htm): открытие денежного ящика;
   - [`DoBillCheque`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_Devices_ICashRegister_DoBillCheque.htm): печать пречека, если он печатается фискальным регистратором.
-- В [расширениях для фискального регистратора](https://iiko.github.io/front.api.doc/v6/ru/ChequeTaskProcessor.html): все методы [`IChequeTaskProcessor`] (https://iiko.github.io/front.api.sdk/v9/html/T_Resto_Front_Api_Devices_IChequeTaskProcessor.htm).
+- В [расширениях для фискального регистратора](https://iiko.github.io/front.api.doc/v6/ru/ChequeTaskProcessor.html): все методы [`IChequeTaskProcessor`](https://iiko.github.io/front.api.sdk/v9/html/T_Resto_Front_Api_Devices_IChequeTaskProcessor.htm).
 
 
 Теперь во все эти методы передается [`IViewManager`](https://iiko.github.io/front.api.sdk/v9/html/T_Resto_Front_Api_UI_IViewManager.htm) с опцией вызвать метод [`ChangeProgressBarMessage`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_UI_IViewManager_ChangeProgressBarMessage.htm).

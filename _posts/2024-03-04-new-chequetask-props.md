@@ -11,4 +11,4 @@ tags: v9 v9preview2
   [операций внешнего фискального регистратора](https://iiko.github.io/front.api.doc/v6/ru/CashRegisters.html):
 - Считать тэги можно в рамках операции [`ICashRegister.DoCheque()`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_Devices_ICashRegister_DoCheque.htm)
 
-Кроме того, можно получить свойства уже пробитого чека методом [`GetDocumentFiscalTags()`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_IOperationService_GetDocumentFiscalTags.htm), зная [`FdNumber`](https://iiko.github.io/front.api.sdk/v9/html/P_Resto_Front_Api_Data_Device_Tasks_GetFiscalTagsTask_FdNumber.htm) интересующего нас документа.
+Кроме того, можно получить свойства уже пробитого чека методом [`GetDocumentFiscalTags()`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_IOperationService_GetDocumentFiscalTags.htm), зная [`FdNumber`](https://iiko.github.io/front.api.sdk/v9/html/P_Resto_Front_Api_Data_Device_Tasks_GetFiscalTagsTask_FdNumber.htm) интересующего вас документа.
