@@ -8,4 +8,4 @@ tags: v9preview3 v9
 
 Для удаления купона следует использовать метод [`ChangeOrderIikoCard5Coupon`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderIikoCard5Coupon.htm) с 'null' в качестве второго аргумента.
 
-Для удаления ручной скидки следует использовать метод  [`ChangeOrderAppliedIikoCard5ManualConditions`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderAppliedIikoCard5ManualConditions.htm) с 'null' илии пустым List<<Guid>> в качестве второго аргумента.
+Для удаления ручной скидки следует использовать метод  [`ChangeOrderAppliedIikoCard5ManualConditions`](https://iiko.github.io/front.api.sdk/v9/html/M_Resto_Front_Api_Extensions_OperationServiceExtensions_ChangeOrderAppliedIikoCard5ManualConditions.htm) с 'null' или пустым List&lt;Guid&gt; в качестве второго аргумента.
