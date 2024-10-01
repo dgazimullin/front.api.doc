@@ -1,7 +1,7 @@
 ---
 title: Статус кухонного заказа
 layout: default
-tags: v9preview3
+tags: v9preview3 v9
 ---
 
 В V9Preview3 в [кухонный заказ](https://iiko.github.io/front.api.sdk/v9/html/T_Resto_Front_Api_Data_Kitchen_IKitchenOrder.htm) было добавлено поле [ProcessingStatus](https://iiko.github.io/front.api.sdk/v9/html/P_Resto_Front_Api_Data_Kitchen_IKitchenOrder_ProcessingStatus.htm), а также для этого было введено перечисление [KitchenOrderProcessingStatus](https://iiko.github.io/front.api.sdk/v9/html/T_Resto_Front_Api_Data_Kitchen_KitchenOrderProcessingStatus.htm). Данное поле описывает текущий статус кухонного заказа.
